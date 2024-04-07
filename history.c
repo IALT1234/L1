@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-
 typedef struct s_Item {
 
   int id;
@@ -15,14 +13,12 @@ typedef struct s_Item {
 
 } Item;
 
-
-
 typedef struct s_List {
 
   struct s_Item *root;
 
-} List;
 
+} List;
 
 
 /* Initialize the linked list to keep the history. */
